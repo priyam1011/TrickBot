@@ -1,16 +1,22 @@
 {
   "name": "DiscordBot",
   "version": "1.0.0",
-  "description": "",
-  "main": "TrickBot.js",
-  "dependencies": {
-    "discord.js": "^7.0.1"
+  "description": "Trick  Bot",
+  "engines": {
+    "node": "5.9.1"
   },
-  "devDependencies": {},
+  "main": "TrickBot.js",
   "scripts": {
     "start": "node TrickBot.js"
   },
-  "keywords": [],
+  "dependencies": {
+    "discord.js": "^7.0.1"
+  },
+  "keywords": [
+	"node",
+	"heroku",
+	"discord"
+  ],
   "author": "",
   "license": "ISC"
 }
